@@ -9,6 +9,16 @@
 */
 
 // YOUR CODE HERE
-mntValue [ 120 , 200 , 3000, 6400, 1200, 50]
+mntValue =[ 120 , 200 , 3000, 6400, 1200, 50]
 
 let index = 0
+let highestMnt = 0
+
+while (index < mntValue.length){
+   if ( mntValue[index] > highestMnt){
+      highestMnt = mntValue[index]
+   }
+   index ++
+}
+
+console.log(highestMnt)
