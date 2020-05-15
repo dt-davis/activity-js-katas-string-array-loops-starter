@@ -9,3 +9,6 @@
 */
 
 // YOUR CODE HERE
+mntValue [ 120 , 200 , 3000, 6400, 1200, 50]
+
+let index = 0
